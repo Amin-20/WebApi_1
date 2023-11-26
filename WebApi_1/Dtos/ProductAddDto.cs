@@ -1,0 +1,9 @@
+﻿namespace WebApi_1.Dtos
+{
+    public class ProductAddDto
+    {
+        public string? Name { get; set; }
+        public string? Price { get; set; }
+        public int Discount { get; set; }
+    }
+}
